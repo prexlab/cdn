@@ -1,0 +1,28 @@
+        .img-fluid-trim{
+            display: inline-block;
+        }
+        .img-fluid-trim > div{
+            height:0;
+            width: auto;
+            overflow:hidden;
+        }
+        .img-fluid-trim-1x1 > div{
+            padding-bottom:100%; /* w:h = 1:1 */
+        }
+        .img-fluid-trim-2x1 > div{
+            padding-bottom:50% /* w:h = 2:1 */
+        }
+        .img-fluid-trim-1x2 > div{
+            padding-bottom:150%; /* w:h = 1:2 */
+        }
+        .img-fluid-trim-16x9 > div{
+            padding-bottom:56.25%; /* w:h = 16:9 */
+        }
+
+        .img-fluid-trim > div > img{
+            width:auto;
+            height:auto;
+            max-width:100%;
+            max-height:initial;
+            /*transform: translate(0, -10%); トリミング開始高さを変える場合*/
+        }
