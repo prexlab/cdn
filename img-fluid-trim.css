@@ -19,6 +19,10 @@
     padding-bottom:56.25%; /* w:h = 16:9 */
 }
 
+.img-fluid-trim-3x2 > div{
+    padding-bottom:66.66%; /* w:h = 3:2 */
+}
+
 .img-fluid-trim-3x1 > div{
     padding-bottom:33.3%; /* w:h = 3:1 */
 }
