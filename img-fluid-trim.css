@@ -44,5 +44,5 @@
     height:auto;
     max-width:100%;
     max-height:initial;
-    /*transform: translate(0, -10%); トリミング開始高さを変える場合*/
+    /*transform: translate(0, -10%); if you change triming start height */
 }
