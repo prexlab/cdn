@@ -4,6 +4,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+/*
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -8099,6 +8100,7 @@ button.bg-dark:focus {
   content: "";
   background-color: rgba(0, 0, 0, 0);
 }
+*/
 
 .m-0 {
   margin: 0 !important;
@@ -9911,7 +9913,7 @@ button.bg-dark:focus {
     margin-left: auto !important;
   }
 }
-
+/*
 .text-monospace {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
 }
