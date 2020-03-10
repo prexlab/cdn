@@ -7874,6 +7874,7 @@ button.bg-dark:focus {
     align-self: stretch !important;
   }
 }
+*/
 
 .float-left {
   float: left !important;
@@ -7980,6 +7981,7 @@ button.bg-dark:focus {
   z-index: 1030;
 }
 
+/*
 @supports ((position: -webkit-sticky) or (position: sticky)) {
   .sticky-top {
     position: -webkit-sticky;
