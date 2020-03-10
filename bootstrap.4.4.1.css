@@ -6780,6 +6780,7 @@ button.bg-dark:focus {
 .bg-transparent {
   background-color: transparent !important;
 }
+*/
 
 .border {
   border: 1px solid #dee2e6 !important;
@@ -7104,7 +7105,7 @@ button.bg-dark:focus {
     display: inline-flex !important;
   }
 }
-
+/*
 .embed-responsive {
   position: relative;
   display: block;
