@@ -2511,7 +2511,7 @@ textarea.form-control {
     margin-bottom: 0;
   }
 }
-
+*/
 .btn {
   display: inline-block;
   font-weight: 400;
@@ -2778,7 +2778,6 @@ fieldset:disabled a.btn {
 .show > .btn-danger.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(225, 83, 97, 0.5);
 }
-*/
 
 .btn-light {
   color: #212529;
