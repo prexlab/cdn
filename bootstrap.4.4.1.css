@@ -2778,6 +2778,7 @@ fieldset:disabled a.btn {
 .show > .btn-danger.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(225, 83, 97, 0.5);
 }
+*/
 
 .btn-light {
   color: #212529;
@@ -3109,6 +3110,7 @@ fieldset:disabled a.btn {
   box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
 }
 
+/*
 .btn-link {
   font-weight: 400;
   color: #007bff;
