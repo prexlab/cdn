@@ -9914,7 +9914,7 @@ button.bg-dark:focus {
     margin-left: auto !important;
   }
 }
-/*
+
 .text-monospace {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
 }
@@ -10146,6 +10146,7 @@ a.text-dark:hover, a.text-dark:focus {
   visibility: hidden !important;
 }
 
+/*
 @media print {
   *,
   *::before,
