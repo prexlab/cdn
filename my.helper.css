@@ -1,0 +1,54 @@
+.lh-08, .lh-08 *{
+    line-height: 0.8 !important;
+}
+
+.lh-09, .lh-09 *{
+    line-height: 0.9 !important;
+}
+
+.lh-10, .lh-10 *{
+    line-height: 1.0 !important;
+}
+
+.lh-12, .lh-12 *{
+    line-height: 1.2 !important;
+}
+
+.lh-15, .lh-15 *{
+    line-height: 1.5 !important;
+}
+
+.lh-17, .lh-17 *{
+    line-height: 1.7 !important;
+}
+
+.lh-20, .lh-20 *{
+    line-height: 2.0 !important;
+}
+
+.lh-25, .lh-25 *{
+    line-height: 2.5 !important;
+}
+
+.lh-30, .lh-30 *{
+    line-height: 3.0 !important;
+}
+
+.lh-10, .lh-10 *{
+    line-height: 1.0 !important;
+}
+
+.lh-12, .lh-12 *{
+    line-height: 1.2 !important;
+}
+
+.smaller{
+    font-size: 60% !important;
+}
+.large{
+    font-size: 120% !important;
+}
+
+.larger{
+    font-size: 150% !important;
+}
