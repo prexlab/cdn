@@ -61,3 +61,38 @@
     display: inline-block !important;
 }
 
+.aspect-16x9 {
+    position: relative;
+    width: 100%;
+}
+.aspect-16x9:before {
+    content:"";
+    display: block;
+    padding-top: 56.25%; /* 高さを幅の75%に固定 */
+}
+.aspect-16x9 > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+.aspect-1x1 {
+    position: relative;
+    width: 100%;
+}
+.aspect-1x1:before {
+    content:"";
+    display: block;
+    padding-top: 100%; /* 高さを幅の75%に固定 */
+}
+.aspect-1x1 > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+}
