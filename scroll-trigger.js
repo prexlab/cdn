@@ -1,4 +1,4 @@
-const getScrollTrigger = function (selector, callback) {
+var getScrollTrigger = function (selector, callback) {
 
     return function () {
         let scroll = $(window).scrollTop();
