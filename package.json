@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build:bs": "sass --load-path=node_modules --quiet-deps --style=compressed src/my-bootstrap5.scss dist/my-bootstrap5.raw.css --no-source-map && postcss dist/my-bootstrap5.raw.css -o dist/my-bootstrap5.min.css"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0"
+  },
+  "devDependencies": {
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "postcss-prefix-selector": "^2.1.1",
+    "sass": "^1.97.3"
+  }
+}
