@@ -2,6 +2,7 @@
 @import "bootstrap/scss/mixins/banner";
 @include bsBanner("");
 
+$enable-negative-margins: true;
 
 // scss-docs-start import-stack
 // Configuration
