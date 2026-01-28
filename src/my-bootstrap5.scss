@@ -15,7 +15,8 @@ $enable-negative-margins: true;
 
 // Layout & components
 @import "bootstrap/scss/root";
-@import "bootstrap/scss/reboot";
+//@import "bootstrap/scss/reboot";
+h1,h2,h3,h4,h5,h6,small,mark{}
 @import "bootstrap/scss/type";
 
 @import "bootstrap/scss/images";
