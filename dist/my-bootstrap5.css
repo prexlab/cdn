@@ -297,11 +297,6 @@
 .my-bootstrap5 sup {
   top: -0.5em;
 }
-
-.my-bootstrap5 a {
-  color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
-  text-decoration: underline;
-}
 .my-bootstrap5 a:hover {
   --bs-link-color-rgb: var(--bs-link-hover-color-rgb);
 }

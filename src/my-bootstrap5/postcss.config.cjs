@@ -2,7 +2,7 @@ const prefixer = require("postcss-prefix-selector");
 
 console.error("[postcss] config loaded");
 
-const EXCLUDED_TAGS = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'];
+const EXCLUDED_TAGS = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'a'];
 
 const removeTagsRules = () => ({
     postcssPlugin: 'remove-tags-rules',
